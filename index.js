@@ -39,6 +39,7 @@ const CustomLog = {
   Warn: (message) => logWithColor(message, "orange"),
   Processing: (message) => logWithColor(message, "purple"),
   PrettyJSON: (json) => logJsonWithColor(json),
+  Custom: (message, color) => logWithColor(message, color),
 };
 
 module.exports = CustomLog;
