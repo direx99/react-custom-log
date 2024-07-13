@@ -1,7 +1,7 @@
 {
   "name": "react-custom-log",
   "version": "1.0.0",
-  "description": "Custom LOG with  user friendly and more features.",
+  "description": "Custom LOG with user friendly and more features.",
   "main": "index.js",
   "scripts": {
     "test": "jest"
