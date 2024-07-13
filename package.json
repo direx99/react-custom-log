@@ -1,0 +1,19 @@
+{
+  "name": "react-custom-log",
+  "version": "1.0.0",
+  "description": "Custom LOG with  user friendly and more fetures.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/direx99/react-custom-log.git"
+  },
+  "author": "Dinith Hasaranga Perera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/direx99/react-custom-log/issues"
+  },
+  "homepage": "https://github.com/direx99/react-custom-log#readme"
+}
