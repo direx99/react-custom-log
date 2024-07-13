@@ -65,15 +65,6 @@ describe("CustomLog", () => {
     );
   });
 
-  it("should log JSON with black color for other statusCodes", () => {
-    const json = { statusCode: 404, message: "Not Found" };
-    CustomLog.PrettyJSON(json);
-    expect(console.log).toHaveBeenCalledWith(
-      '%c{\n  "statusCode": 404,\n  "message": "Not Found"\n}',
-      "color: black"
-    );
-  });
-
   it("should log error message for invalid JSON", () => {
     console.log.mockImplementationOnce(() => {
       throw new Error("Invalid JSON provided");

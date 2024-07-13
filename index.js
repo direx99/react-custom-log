@@ -7,7 +7,6 @@ const logWithColor = (message, color) => {
 const logJsonWithColor = (json) => {
   try {
     const prettyString = JSON.stringify(json, null, 2);
-    let color = "black";
 
     if (
       (json.status && json.status === "error") ||
