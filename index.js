@@ -41,4 +41,4 @@ const CustomLog = {
   PrettyJSON: (json) => logJsonWithColor(json),
 };
 
-export default CustomLog;
+module.exports = CustomLog;
