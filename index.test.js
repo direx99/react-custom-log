@@ -75,4 +75,12 @@ describe("CustomLog", () => {
       "color: red"
     );
   });
+
+  it("should log message with user-defined color", () => {
+    CustomLog.Custom("Custom color message", "magenta");
+    expect(console.log).toHaveBeenCalledWith(
+      "%cCustom color message",
+      "color: magenta"
+    );
+  });
 });
