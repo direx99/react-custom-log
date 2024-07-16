@@ -92,6 +92,16 @@ CustomLog.Processing("This is a processing message.");
 
 ###
 
+#### `CustomLog.Custom(message, color)`
+
+Logs with any color.
+
+```javascript
+CustomLog.Custom("You can set any color", "#f3f3f3");
+```
+
+###
+
 #### `CustomLog.PrettyJSON(json)`
 
 Logs a pretty-printed JSON object. The color of the log depends on the status or code fields in the JSON.
@@ -116,6 +126,7 @@ const App = () => {
   CustomLog.Success("Success message");
   CustomLog.Warn("Warning message");
   CustomLog.Processing("Processing message");
+  CustomLog.Custom("Custom Log", "#f3f3f3");
 
   const jsonResponse = { status: "error", message: "Something went wrong!" };
   CustomLog.PrettyJSON(jsonResponse);
